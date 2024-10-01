@@ -20,12 +20,12 @@ Fonts are separated by a &);*/
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: rgb(207, 134, 39);  /* headlines on a white background */ 
   --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
-  --paragraph-color-on-white: rgba(60, 122, 82); /* paragraph text on a white background */ 
+  --paragraph-color-on-white: rgb(60, 122, 82); /* paragraph text on a white background */ 
   --paragraph-color-on-color: rgb(255, 255, 255); /* paragraph text on a colored background */ 
   --paragraph-background-color: rgb(56, 158, 166);
-  --nav-link-color: rgb(207, 134, 39);
+  --nav-link-color: white;
   --nav-background-color: rgb(60, 122, 82);
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: rgb(207, 134, 39)
   --nav-hover-background-color: rgb(60, 122, 82);
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 }
