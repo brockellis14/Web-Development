@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    font-size: 4.5em;
+    font-size: 5.5em;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -19,7 +19,7 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
-    width: 35%;
+    width: 30%;
 }
 
 h4 {
