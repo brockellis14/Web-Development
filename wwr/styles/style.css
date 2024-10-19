@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap');
+
+:root {
+    --heading-font: "Rock Salt", sans-serif;
+    --paragraph-font: "Josefin Sans", sans-serif;
+}
+
+/* Simple Reset */
+body {
+    background-color: #fcfbfb;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
 /* General page layout and centering */
 #content {
     margin: 0 auto;
@@ -5,125 +26,146 @@
     padding: 0 20px;
 }
 
-/* Navigation Links */
+/* Header */
+header {
+    background-color: rgba(20, 40, 13, 0.7);
+    font-family: var(--paragraph-font);
+    font-size: 2em;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: #ffffff;
-    text-decoration: none; /* No underline for nav links */
-    padding: 10px;
+    text-decoration: none;
+    padding: 35px;
     display: inline-block;
-}
-
-h1 {
-    color: rgb(167, 71, 0);
-}
-
-h4 {
-    color: rgb(167, 71, 0);
 }
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3; /* Hover color */
+    color: #d9c2a3;
 }
 
-/* Hero Section Text */
+/* Hero Section */
+#hero {
+    position: relative;
+}
+
+#hero-img {
+    width: 100%;
+    height: auto;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
-/* Centering the Button in Hero Section */
+#hero-msg h1 {
+    color: rgb(167, 71, 0);
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+    font-size: 3.25em;
+    margin-top: 10px;
+}
+
+#hero-msg h4 {
+    color: rgb(167, 71, 0);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 2.25em;
+}
+
 .button-box {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-/* Main section cards */
-main section {
-    text-align: center;
-    margin-bottom: 20px; /* Adjust the space between sections */
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-/* Background for body */
-body {
-    background-color: #fcfbfb;
-}
-
-/* Header background color */
-header {
-    background-color: rgba(20, 40, 13, 0.7); /* Slightly transparent to show background through */
-}
-
-/* Nav Links Hover */
-nav a:hover {
+.book:hover, .join:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #ffffff;
 }
 
-/* Card Images and Icons */
-.card-img, .icon, .mountains {
-    width: 100%; /* Responsive to the container */
-    max-width: 300px; /* Set a max-width for consistency */
-    height: auto; /* Maintain aspect ratio */
+/* Main Section */
+main {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Hero image full width */
-#hero-img {
-    width: 100%;
+.card-img {
+    width: 225%;
+    max-width: 750px;
     height: auto;
+    border: 10px solid #d9c2a3; /* Change color as per your site plan */
 }
 
-/* Background color for the background container */
-#background {
-    height: 400px; /* Adjust the height */
-    background-color: rgb(210, 180, 140); /* Set background color */
-}
-
-.msg {
-    background-color:  rgba(20, 40, 13, 0.7)
+.icon {
+    width: 5%; /* Make icons smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Add some margin and center the icons */
+    padding-top: 10px;
+    display: block;
 }
 
 h2 {
+    font-family: var(--paragraph-font);
+    font-weight: bold;
     color: rgb(167, 71, 0);
+    font-size: 1.75em;
+}
+
+#background {
+    height: 400px;
+    background-color: rgb(210, 180, 140);
+}
+
+.msg {
+    background-color: rgba(20, 40, 13, 0.7);
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
 }
 
 #expanse {
-    color: rgb(245, 245, 220)
+    color: rgb(245, 245, 220);
 }
 
 p {
     color: rgb(245, 245, 220);
 }
 
-
-/* Styling buttons */
-.book, .join {
-    background-color: #d9c2a3;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: black;
-    color: #ffffff; /* Inverted colors on hover */
-}
-
-/* Footer background color */
+/* Footer */
 footer {
-    background-color: rgba(20, 40, 13, 0.7); /* Slightly transparent background */
+    background-color: rgba(20, 40, 13, 0.7);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-/* Footer Styling */
 footer p {
     font-size: 1.2em;
 }
 
-/* Footer Links */
 footer a {
     color: rgb(245, 245, 220);
     text-decoration: none;
@@ -133,7 +175,15 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Social media icon styling */
+footer .social img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: transparent;
+    padding-top: 15px;
+}
+
+/* Social Media Icons */
 .social img {
     width: 40px;
     height: 40px;
@@ -141,11 +191,11 @@ footer a:hover {
     background-color: transparent;
 }
 
-/* Icon and Logo Sizes */
-.icon {
-    width: 80px; /* Icon size */
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
-.logo {
-    width: 80px; /* Logo size */
+/* Apply box-sizing */
+main section img {
+    box-sizing: border-box;
 }

@@ -1,0 +1,24 @@
+
+body {
+    margin: inline-block;
+}
+
+.pics {
+    margin: auto;
+}
+
+#desk {
+    margin: 0px;
+    border-width: 100px;
+    border-radius: 70% ;
+}
+
+#graphic {
+    margin: 0px;
+    border-radius: 70%;
+}
+
+#person {
+    margin: 0px;
+    border-radius: 70%;
+}
