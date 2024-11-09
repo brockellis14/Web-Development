@@ -93,7 +93,8 @@ nav a:hover {
 }
 
 #hero-msg h1 {
-    color: rgb(167, 71, 0);
+    color: rgb(239, 117, 23);
+    background-color: #ffffff;
     font-family: var(--paragraph-font);
     font-weight: bold;
     font-size: 3em; /* Reduced size for better proportion */
@@ -101,10 +102,11 @@ nav a:hover {
 }
 
 #hero-msg h4 {
-    color: black;
+    color: rgb(160, 69, 0);
+    background-color: #ffffff;
     font-family: var(--heading-font);
     font-weight: bold;
-    font-size: 2em; /* Reduced size for better proportion */
+    font-size: 1.75em; /* Reduced size for better proportion */
 }
 
 .button-box {
@@ -208,7 +210,7 @@ main {
 h2 {
     font-family: var(--paragraph-font);
     font-weight: bold;
-    color: rgb(167, 71, 0);
+    color: rgb(239, 117, 23);
     font-size: 1.75em;
 }
 
