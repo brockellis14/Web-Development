@@ -339,10 +339,10 @@ main section img {
 /* FAQ Grid Styles */
 #faq-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Creates 3 equal columns */
-    gap: 20px; /* Adds spacing between the grid items */
-    margin: 20px auto; /* Centers the grid on the page */
-    max-width: 1200px; /* Optional: Adjust this value as needed */
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    margin: 20px auto;
+    max-width: 1200px;
 }
 
 /* Individual FAQ Item Styling */
@@ -353,7 +353,6 @@ main section img {
     text-align: center;
 }
 
-/* Optional: Add some hover effect for the FAQ items */
 .faq-item1:hover, .faq-item2:hover, .faq-item3:hover, .faq-item4:hover {
     background-color: rgb(39, 39, 39);
     transform: scale(1.05);
