@@ -323,3 +323,58 @@ main section img {
 
 /* Styles for FAQ page */
 
+#headline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image {
+    grid-column: 0/1;
+}
+
+.content {
+    grid-column: 1/2;
+}
+
+/* FAQ Grid Styles */
+#faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Creates 3 equal columns */
+    gap: 20px; /* Adds spacing between the grid items */
+    margin: 20px auto; /* Centers the grid on the page */
+    max-width: 1200px; /* Optional: Adjust this value as needed */
+}
+
+/* Individual FAQ Item Styling */
+.faq-item1, .faq-item2, .faq-item3, .faq-item4 {
+    background-color: #3f502c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Optional: Add some hover effect for the FAQ items */
+.faq-item1:hover, .faq-item2:hover, .faq-item3:hover, .faq-item4:hover {
+    background-color: rgb(39, 39, 39);
+    transform: scale(1.05);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Adjust the styling of the 'main' section */
+main {
+    background-color: rgb(178, 118, 65);
+    padding: 40px 20px;
+}
+
+/* Media Query for Mobile View */
+@media screen and (max-width: 900px) {
+    #faq-grid {
+        grid-template-columns: 1fr; /* Single column layout for small screens */
+        gap: 10px; /* Reduce gap on small screens */
+    }
+
+    .faq-item1, .faq-item2, .faq-item3 {
+        margin: 10px auto;
+        width: 90%; /* Adjust width for mobile */
+    }
+}
