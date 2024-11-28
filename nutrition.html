@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nutrition Tracker</h1>
+        <p>Track your daily intake of calories, proteins, carbs, vitamins, and minerals!</p>
+    </header>
+    <div class="container">
+        <!-- Input Section -->
+        <div class="input-section">
+            <h2>Enter Nutritional Info</h2>
+            <form action="/" method="POST">
+                <div class="input-grid">
+                    <div class="input-item">
+                        <label for="calories">Calories (kcal):</label>
+                        <input type="number" name="calories" placeholder="e.g., 2500" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="proteins">Proteins (g):</label>
+                        <input type="number" name="proteins" placeholder="e.g., 50" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="carbs">Carbs (g):</label>
+                        <input type="number" name="carbs" placeholder="e.g., 300" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="fats">Fats (g):</label>
+                        <input type="number" name="fats" placeholder="e.g., 70" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="vitaminA">Vitamin A (mcg):</label>
+                        <input type="number" name="vitaminA" placeholder="e.g., 900" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="vitaminC">Vitamin C (mg):</label>
+                        <input type="number" name="vitaminC" placeholder="e.g., 90" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="vitaminD">Vitamin D (IU):</label>
+                        <input type="number" name="vitaminD" placeholder="e.g., 800" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="vitaminE">Vitamin E (mg):</label>
+                        <input type="number" name="vitaminE" placeholder="e.g., 15" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="calcium">Calcium (mg):</label>
+                        <input type="number" name="calcium" placeholder="e.g., 1000" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="iron">Iron (mg):</label>
+                        <input type="number" name="iron" placeholder="e.g., 18" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="magnesium">Magnesium (mg):</label>
+                        <input type="number" name="magnesium" placeholder="e.g., 400" required>
+                    </div>
+                    <div class="input-item">
+                        <label for="potassium">Potassium (mg):</label>
+                        <input type="number" name="potassium" placeholder="e.g., 4700" required>
+                    </div>
+                </div>
+                <button type="submit">Add Intake</button>
+                <button type="submit" name="reset" value="true">Reset Tracker</button>
+            </form>
+        </div>
+
+        <!-- Progress Report Section -->
+        <div class="progress-section">
+            <h2>Progress Report</h2>
+            <div id="report">
+                <p>Calories: <span>{{ nutrients['calories'] }}</span> kcal</p>
+                <p>Proteins: <span>{{ nutrients['proteins'] }}</span> g</p>
+                <p>Carbs: <span>{{ nutrients['carbs'] }}</span> g</p>
+                <p>Fats: <span>{{ nutrients['fats'] }}</span> g</p>
+                <p>Vitamin A: <span>{{ nutrients['vitaminA'] }}</span> mcg</p>
+                <p>Vitamin C: <span>{{ nutrients['vitaminC'] }}</span> mg</p>
+                <p>Vitamin D: <span>{{ nutrients['vitaminD'] }}</span> IU</p>
+                <p>Vitamin E: <span>{{ nutrients['vitaminE'] }}</span> mg</p>
+                <p>Calcium: <span>{{ nutrients['calcium'] }}</span> mg</p>
+                <p>Iron: <span>{{ nutrients['iron'] }}</span> mg</p>
+                <p>Magnesium: <span>{{ nutrients['magnesium'] }}</span> mg</p>
+                <p>Potassium: <span>{{ nutrients['potassium'] }}</span> mg</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nutrition Tracker</p>
+    </footer>
+
+</body>
+</html>
