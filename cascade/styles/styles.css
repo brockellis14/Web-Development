@@ -73,7 +73,7 @@ nav a {
 }
 
 .hero-image img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 8px;
 }
@@ -131,18 +131,6 @@ nav a {
 }
 
 .product-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-#suggested-images .image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-#suggested-images img {
     width: 100%;
     height: auto;
     border-radius: 8px;
