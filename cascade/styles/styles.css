@@ -35,7 +35,6 @@ nav a {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
     font-size: 1.25em;
 }
 
@@ -64,16 +63,6 @@ nav a {
 .hero-text p {
     font-size: 1.2em;
     line-height: 1.6;
-}
-
-.hero-buttons button {
-    background-color: #e44d26;
-    color: white;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .hero-image img {
