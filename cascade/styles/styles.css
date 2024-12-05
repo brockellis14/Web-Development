@@ -31,6 +31,18 @@ nav a {
     color: #cc6912;
 }
 
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#logoimage {
+    height: 15%;
+    width: 15%;
+    border-radius: 15%;
+    margin-right: 35px;
+}
+
 .button {
     background-color: #cc6912;
     color: #fff;
@@ -130,11 +142,10 @@ nav a {
 }
 
 .product-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    height: 1000px;
+    padding: 2%;
+    width: 50%;
 }
-
 footer {
     padding: 20px;
     background-color: #414833;
