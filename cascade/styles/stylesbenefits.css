@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.5em
 }
 
 /* Header */
@@ -41,7 +41,7 @@ nav a {
 }
 
 .hover:hover {
-    background-color: #cc6912;
+    color: #cc6912;
 }
 
 /* Hero Section */
