@@ -51,6 +51,7 @@ nav a {
     padding: 50px 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 #hero h2 {
@@ -77,11 +78,12 @@ nav a {
 }
 
 .benefit-card {
-    background-color: #cc6912;
+    background-color: #cc8e58;
     padding: 25px;
     border-radius: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin: 10px;
 }
 
 .benefit-card img {
@@ -118,6 +120,7 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 footer .footer-links ul {

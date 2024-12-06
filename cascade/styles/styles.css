@@ -1,57 +1,74 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    font-size: 1.5em ;
+    font-size: 1em;
 }
 
+/* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #414833 ;
+    background-color: #414833;
     color: #ff7700;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+.header-container {
     display: flex;
-    list-style: none;
-    gap: 250px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-}
-.nav-links:hover {
-    color: #cc6912;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 200px;
 }
 
 .logo {
     display: flex;
-    justify-content: left;
     align-items: center;
+    font-family: 'Dancing Script', cursive;
 }
-#logoimage {
-    height: 15%;
-    width: 15%;
-    border-radius: 15%;
-    margin-right: 35px;
+
+.logo-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 1.25em;
+    list-style: none;
+    gap: 75px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.nav-links a:hover {
+    color: #cc6912;
 }
 
 .button {
     background-color: #cc6912;
     color: #fff;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid white;
     cursor: pointer;
-    font-size: .75em;
+    font-size: 0.9em;
 }
 
+.button:hover {
+    background-color: #aa570a;
+}
+
+/* Hero Section */
 #hero {
     padding: 40px;
     background-color: #C2C5AA;
@@ -60,13 +77,9 @@ nav a {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns: 1 for text, 1 for image */
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
-}
-
-.hero-text {
-    max-width: 100%;
 }
 
 .hero-text h2 {
@@ -80,72 +93,55 @@ nav a {
 }
 
 .hero-image img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10%;
+    border: 3px solid white;
 }
 
+/* About Section */
 #about-overview {
     padding: 40px;
     background-color: #c9baa0;
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 1em;
-    justify-items: center;
+    text-align: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
-}
-
-.grid-item {
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-}
-
-.grid-item h2 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
-
-.grid-item p {
-    font-size: 1em;
-    line-height: 1.5;
-}
-
+/* Product Section */
 #our-products {
     padding: 40px;
     background-color: #C2C5AA;
     text-align: center;
 }
 
-#our-products h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    background-color: white;
 }
 
 .product-item {
     padding: 20px;
+    font-size: 1.25em;
     background-color: #c9baa0;
-    border-radius: 8px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 10%;
     text-align: center;
 }
 
-.product-item img {
-    height: 1000px;
-    padding: 2%;
-    width: 50%;
+.product-item:hover {
+    transform: scale(1.1);
 }
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
 footer {
     padding: 20px;
     background-color: #414833;
@@ -153,15 +149,18 @@ footer {
     text-align: center;
 }
 
-footer a {
-    color: #cc6912;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer ul {
+.footer-links {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+    list-style: none;
 }
 
+.footer-links a {
+    color: #cc6912;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #aa570a;
+}
