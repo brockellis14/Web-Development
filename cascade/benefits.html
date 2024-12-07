@@ -7,90 +7,122 @@
     <link rel="stylesheet" href="styles/stylesbenefits.css">
 </head>
 <body>
-
-    <!-- Header -->
-    <header>
+<!-- Header -->
+<header>
+    <div class="header-container">
         <div class="logo">
-            <h1>Homebaked Sourdough</h1>
+            <img src="Rustic.jpg" alt="Rustic Sourdough Logo" class="logo-image">
+            <h2>Rustic Sourdough</h2>
         </div>
         <nav>
-            <ul>
-                <li><a class="hover" href="Rustic.html">Home</a></li>
-                <li><a class="hover" href="aboutus.html">About Us</a></li>
-                <li><a class="hover" href="benefits.html">Benefits</a></li>
-                <li><a class="hover" href="contact.html">Contact</a></li>
+            <ul class="nav-links">
+                <li><a href="Rustic.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="benefits.html">Benefits</a></li>
+                <li><a href="contactus.html">Contact</a></li>
             </ul>
         </nav>
         <button class="button">Order Now</button>
-    </header>
+    </div>
+</header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <h2>Discover the Benefits of Homemade Organic Sourdough</h2>
-        <p>Our sourdough is made with love, using the best organic ingredients to bring you wholesome bread that’s healthy and delicious.</p>
-    </section>
+<!-- Hero Section -->
+<section id="hero">
+    <h2>Discover the Benefits of Homemade Organic Sourdough</h2>
+    <p>Our sourdough is made with love, using the best organic ingredients to bring you wholesome bread that’s healthy and delicious.</p>
+</section>
 
-    <!-- Benefits Section -->
-    <section id="benefits-list">
-        <!-- Benefit 1 -->
-        <div class="benefit-card">
-            <img src="images/benefit1.jpg" alt="Benefit 1: Easier to Digest">
-            <h3>Easier to Digest</h3>
-            <p>Sourdough's slow fermentation process breaks down gluten and carbohydrates, making it easier to digest. The beneficial bacteria in sourdough help pre-digest complex carbs, making it a better choice for those with gluten sensitivity or digestive issues.</p>
-            <a href="#none">Learn more</a>
-        </div>
+<!-- Benefits Slideshow Section -->
+<section id="benefits-slideshow">
+    <!-- Benefit 1 -->
+    <div class="benefit-slide active">
+        <h3>Benefit 1: Easier to Digest</h3>
+        <p>Sourdough's slow fermentation process breaks down gluten and carbohydrates, making it easier to digest. The beneficial bacteria in sourdough help pre-digest complex carbs, making it a better choice for those with gluten sensitivity or digestive issues.</p>
+        <img src="images/digestion.jpg" alt="Benefit 1: Easier to Digest">
+    </div>
 
-        <!-- Benefit 2 -->
-        <div class="benefit-card">
-            <img src="images/benefit2.jpg" alt="Benefit 2: Low Glycemic Index">
-            <h3>Better for Blood Sugar Control</h3>
-            <p>With a low glycemic index, sourdough releases energy slowly, preventing blood sugar spikes. Its fermentation process reduces simple sugars, making it a better option for those managing blood sugar levels.</p>
-            <a href="#none">Learn more</a>
-        </div>
+    <!-- Benefit 2 -->
+    <div class="benefit-slide">
+        <h3>Benefit 2: Low Glycemic Index</h3>
+        <p>With a low glycemic index, sourdough releases energy slowly, preventing blood sugar spikes. Its fermentation process reduces simple sugars, making it a better option for those managing blood sugar levels.</p>
+        <img src="images/glycemic.jpg" alt="Benefit 2: Low Glycemic Index">
+    </div>
 
-        <!-- Benefit 3 -->
-        <div class="benefit-card">
-            <img src="images/benefit3.jpg" alt="Benefit 3: Rich in Nutrients">
-            <h3>Rich in Nutrients</h3>
-            <p>Sourdough made from organic, whole grains provides B vitamins, fiber, and essential minerals. The fermentation process makes these nutrients more bioavailable, so your body can absorb them more easily.</p>
-            <a href="#none">Learn more</a>
-        </div>
+    <!-- Benefit 3 -->
+    <div class="benefit-slide">
+        <h3>Benefit 3: Rich in Nutrients</h3>
+        <p>Sourdough made from organic, whole grains provides B vitamins, fiber, and essential minerals. The fermentation process makes these nutrients more bioavailable, so your body can absorb them more easily.</p>
+        <img src="images/rich.jpg" alt="Benefit 3: Rich in Nutrients">
+    </div>
 
-        <!-- Benefit 4 -->
-        <div class="benefit-card">
-            <img src="images/benefit4.jpg" alt="Benefit 4: Gut Health">
-            <h3>Improves Gut Health</h3>
-            <p>The probiotics found in sourdough help to support a healthy gut microbiome, improving digestion and contributing to better overall health.</p>
-            <a href="#none">Learn more</a>
-        </div>
+    <!-- Benefit 4 -->
+    <div class="benefit-slide">
+        <h3>Benefit 4: Gut Health</h3>
+        <p>The probiotics found in sourdough help to support a healthy gut microbiome, improving digestion and contributing to better overall health.</p>
+        <img src="images/gut.jpg" alt="Benefit 4: Gut Health">
+    </div>
 
-        <!-- Benefit 6 -->
-        <div class="benefit-card">
-            <img src="images/benefit6.jpg" alt="Benefit 5: Better Nutrient Absorption">
-            <h3>Lower in Phytates</h3>
-            <p>Phytates in grains can bind to minerals, making them harder to absorb. The long fermentation process reduces phytate levels, making minerals like iron and zinc more bioavailable to your body.</p>
-            <a href="#none">Learn more</a>
-        </div>
+    <!-- Benefit 5 -->
+    <div class="benefit-slide">
+        <h3>Benefit 5: Better Nutrient Absorption</h3>
+        <p>Phytates in grains can bind to minerals, making them harder to absorb. The long fermentation process reduces phytate levels, making minerals like iron and zinc more bioavailable to your body.</p>
+        <img src="images/absorb.jpg" alt="Benefit 5: Better Nutrient Absorption">
+    </div>
 
-        <!-- Benefit 7 -->
-        <div class="benefit-card">
-            <img src="images/benefit7.jpg" alt="Benefit 6: Heart Health">
-            <h3>Supports Heart Health</h3>
-            <p>Sourdough made from whole grains contains fiber and beneficial fats, such as omega-3s, which are shown to improve heart health and reduce inflammation.</p>
-            <a href="#none">Learn more</a>
-        </div>
-    </section>
+    <!-- Benefit 6 -->
+    <div class="benefit-slide">
+        <h3>Benefit 6: Heart Health</h3>
+        <p>Sourdough made from whole grains contains fiber and beneficial fats, such as omega-3s, which are shown to improve heart health and reduce inflammation.</p>
+        <img src="images/heart.jpg" alt="Benefit 6: Heart Health">
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="social-links">
-            <a class="links" href="site-plan.html">
-            <a  class="links" href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
-            <a class="links" href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
-            <a class="links" href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-        </div>
-        <p>&copy; 2024 Homebaked Sourdough. All rights reserved.</p>
-    </footer>
+    <button class="slideshow-btn" id="prev">&lt;</button>
+    <button class="slideshow-btn" id="next">&gt;</button>
+</section>
 
+<!-- Footer -->
+<footer>
+    <div class="social-links">
+        <a class="links" href="site-plan.html"></a>
+        <a class="links" href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+        <a class="links" href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        <a class="links" href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+    </div>
+    <p>&copy; 2024 Homebaked Sourdough. All rights reserved.</p>
+</footer>
+
+// Don't mess with lol
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".benefit-slide");
+    const prevButton = document.getElementById("prev");
+    const nextButton = document.getElementById("next");
+
+    function showSlide(index) {
+        // Wrap around if the index is out of bounds
+        if (index >= slides.length) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = slides.length - 1;
+        } else {
+            currentSlide = index;
+        }
+
+        // Hide all slides, then show only the current one
+        slides.forEach((slide, i) => {
+            slide.classList.remove("active");
+            if (i === currentSlide) {
+                slide.classList.add("active");
+            }
+        });
+    }
+
+    // Event listeners for the buttons
+    prevButton.addEventListener("click", () => showSlide(currentSlide - 1));
+    nextButton.addEventListener("click", () => showSlide(currentSlide + 1));
+
+    // Initialize first slide
+    showSlide(currentSlide);
+</script>
 </body>
 </html>
