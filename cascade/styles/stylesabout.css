@@ -1,4 +1,4 @@
-/* General Styling */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -79,109 +79,132 @@ header {
 
 /* Hero Section */
 #hero {
-    padding: 40px;
     background-color: whitesmoke;
-    margin-top: 10px;
-    height: 400px;
-}
-
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 200px;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-top: 25px;
 }
 
-.hero-text h2 {
-    margin-left: 15px;
-    font-size: 2em;
-    margin-bottom: 15px;
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
     color: #E07A5F;
+    margin-bottom: 15px;
 }
 
-.hero-text p {
-    margin-left: 15px;
-    font-size: 1.2em;
+.hero-content p {
+    font-size: 1.2rem;
     line-height: 1.6;
     color: #2E2E2E;
+    margin-bottom: 15px;
 }
 
-.hero-image img {
-    max-width: 370px;
-    height: 400px;
-    margin-left: 200px;
-    border-radius: 10%;
-    border: 3px solid #8C4A2F;
+.hero-buttons button {
+    background-color: #E07A5F;
+    color: whitesmoke;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #8C4A2F;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-/* About Section */
-#about-overview {
-    padding: 40px;
-    background-color: #F4E8D4;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+.hero-buttons button:hover {
+    background-color: #A7C957;
+}
+
+/* About, Family, and Image Gallery Sections */
+#about, #family, #image-gallery {
+    padding: 3rem 2rem;
+    background-color: whitesmoke;
+    margin: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
     color: #2E2E2E;
 }
 
-/* Product Section */
-#our-products {
-    height: 725px;
-    padding: 40px;
-    background-color: whitesmoke;
-    text-align: center;
-}
-
-.product-grid {
+/* Image Gallery */
+#image-gallery .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
-.product-item {
-    padding: 20px;
-    font-size: 1.25em;
-    background-color: #F4E8D4;
-    color: #333;
-    margin: 10px;
-    border: 3px solid #8C4A2F;
-    border-radius: 10%;
-    text-align: center;
-}
-
-.product-item:hover {
-    transform: scale(1.1);
-}
-
-.product-image {
-    width: 100%;
+.image-item img {
+    width: 425px;
     height: 400px;
-    border-radius: 9%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.image-item p {
+    text-align: center;
+    color: #2E2E2E;
+    margin-top: 10px;
 }
 
 /* Footer */
 footer {
-    padding: 20px;
     background-color: #333;
-    color: #F4E8D4;
+    color: whitesmoke;
     text-align: center;
-    margin-top: 10px;
+    padding: 1.5rem 2rem;
 }
 
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+footer ul {
     list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
 }
 
-.footer-links a {
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul li a {
     color: #E07A5F;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+footer ul li a:hover {
     color: #A7C957;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #B0B0B0;
 }
 
 /* Responsive Design */
