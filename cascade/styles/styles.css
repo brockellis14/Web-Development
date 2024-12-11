@@ -24,6 +24,7 @@ header {
 .header-container {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     padding: 20px;
     max-width: 1700px;
