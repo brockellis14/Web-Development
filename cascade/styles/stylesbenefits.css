@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F4E8D4;
-    font-size: 1em;
+    font-size: 1.5em; /* Increased font size */
     color: #2E2E2E;
 }
 
@@ -13,22 +13,22 @@ header {
     background-color: #333;
     color: #E07A5F;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 100px;
+    height: 150px; /* Increased height */
     position: sticky;
     top: 0;
     z-index: 10;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 30px; /* Increased padding */
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
+    padding: 30px; /* Increased padding */
+    max-width: 1800px; /* Increased max-width */
     margin: 0 auto;
-    gap: 100px;
+    gap: 150px; /* Increased gap */
 }
 
 .logo {
@@ -38,24 +38,24 @@ header {
 }
 
 .logo-image {
-    height: 60px;
-    width: 60px;
+    height: 90px; /* Increased size */
+    width: 90px; /* Increased size */
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 22px; /* Increased margin */
 }
 
 .nav-links {
     display: flex;
-    font-size: 1.25em;
+    font-size: 1.875em; /* Increased font size */
     list-style: none;
-    gap: 75px;
+    gap: 112px; /* Increased gap */
 }
 
 .nav-links a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.35em; /* Increased font size */
 }
 
 .nav-links a:hover {
@@ -65,11 +65,11 @@ header {
 .button {
     background-color: #E07A5F;
     color: whitesmoke;
-    padding: 10px 20px;
+    padding: 15px 30px; /* Increased padding */
     border: 1px solid #8C4A2F;
     cursor: pointer;
-    font-size: 0.9em;
-    margin-left: 15px;
+    font-size: 1.35em; /* Increased font size */
+    margin-left: 20px; /* Increased margin */
 }
 
 .button:hover {
@@ -80,37 +80,37 @@ header {
 /* Hero Section */
 #hero {
     background-color: whitesmoke;
-    padding: 50px 20px;
+    padding: 75px 30px; /* Increased padding */
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 15px; /* Increased margin */
 }
 
 #hero h2 {
-    font-size: 2.5rem;
+    font-size: 3.75rem; /* Increased font size */
     color: #E07A5F;
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Increased margin */
 }
 
 #hero p {
-    font-size: 1.1rem;
+    font-size: 1.65rem; /* Increased font size */
     color: #2E2E2E;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Increased margin */
 }
 
 /* Benefits Slideshow Section */
 #benefits-slideshow {
     position: relative;
-    width: 85%;
-    margin: 20px auto;
+    width: 127.5%; /* Increased width */
+    margin: 30px auto; /* Increased margin */
     text-align: center;
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 30px; /* Increased padding */
     border: 2px solid #8C4A2F;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Increased border-radius */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    height: 450px;
+    height: 675px; /* Increased height */
 }
 
 .benefit-slide {
@@ -125,23 +125,23 @@ header {
 }
 
 .benefit-slide img {
-    max-height: 300px;
+    max-height: 450px; /* Increased size */
     object-fit: cover;
-    margin: 25px;
-    width: 600px;
-    border-radius: 10%;
+    margin: 37.5px; /* Increased margin */
+    width: 900px; /* Increased width */
+    border-radius: 15%; /* Increased border-radius */
 }
 
 .benefit-slide h3 {
-    font-size: 2.2rem;
+    font-size: 3.3rem; /* Increased font size */
     color: #E07A5F;
-    margin-bottom: 5px;
+    margin-bottom: 7.5px; /* Increased margin */
 }
 
 .benefit-slide p {
-    font-size: 1.2rem;
+    font-size: 1.8rem; /* Increased font size */
     color: #2E2E2E;
-    margin-bottom: 5px;
+    margin-bottom: 7.5px; /* Increased margin */
 }
 
 .benefit-slide.active {
@@ -153,12 +153,12 @@ header {
 .slideshow-btn {
     background-color: #E07A5F;
     color: whitesmoke;
-    padding: 10px 20px;
+    padding: 15px 30px; /* Increased padding */
     border: none;
     cursor: pointer;
-    font-size: 1rem;
-    margin: 10px;
-    border-radius: 5px;
+    font-size: 1.5rem; /* Increased font size */
+    margin: 15px; /* Increased margin */
+    border-radius: 7.5px; /* Increased border-radius */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -172,26 +172,26 @@ header {
 }
 
 #prev {
-    left: 10px;
+    left: 15px; /* Increased position */
 }
 
 #next {
-    right: 10px;
+    right: 15px; /* Increased position */
 }
 
 /* Footer */
 footer {
-    padding: 20px;
+    padding: 30px; /* Increased padding */
     background-color: #333;
     color: whitesmoke;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px; /* Increased margin */
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 45px; /* Increased gap */
     list-style: none;
 }
 
