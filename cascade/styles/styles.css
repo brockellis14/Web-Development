@@ -141,6 +141,7 @@ header {
 }
 
 .product-item {
+    height: 90%;
     padding: 20px;
     font-size: 1.25em;
     background-color: #F4E8D4;
@@ -157,7 +158,7 @@ header {
 
 .product-image {
     width: 100%;
-    height: 600px;
+    height: 75%;
     border-radius: 9%;
 }
 
