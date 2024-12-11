@@ -26,9 +26,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 100px;
+    max-width: 1700px;
+    gap: 150px;
 }
 
 .logo {
@@ -48,7 +47,7 @@ header {
     display: flex;
     font-size: 1.25em;
     list-style: none;
-    gap: 75px;
+    gap: 150px;
 }
 
 .nav-links a {
