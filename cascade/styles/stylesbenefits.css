@@ -124,10 +124,10 @@ header {
 }
 
 .benefit-slide img {
-    max-height: 475px;
+    max-height: 575px;
     object-fit: cover;
     margin: 25px;
-    width: 650px;
+    width: 825px;
     border-radius: 10%;
 }
 
