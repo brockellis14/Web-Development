@@ -46,7 +46,7 @@ header {
     display: flex;
     font-size: 1.25em;
     list-style: none;
-    gap: 75px;
+    gap: 100px;
 }
 
 .nav-links a {
