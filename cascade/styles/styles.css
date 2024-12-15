@@ -104,9 +104,9 @@ header {
 }
 
 .hero-image img {
-    max-width: 450px;
-    height: 475px;
-    margin-left: 275px;
+    max-width: 600px;
+    height: 500px;
+    margin-left: 400px;
     border-radius: 10%;
     border: 3px solid #8C4A2F;
 }

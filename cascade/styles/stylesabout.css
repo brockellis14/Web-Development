@@ -86,6 +86,7 @@ header {
     text-align: center;
     padding: 4rem 2rem;
     margin-top: 25px;
+    height: 300px;
 }
 
 .hero-content {
@@ -122,7 +123,21 @@ header {
 }
 
 /* About, Family, and Image Gallery Sections */
-#about, #family, #image-gallery {
+#about {
+    padding: 3rem 2rem;
+    background-color: whitesmoke;
+    margin: 2rem 0;
+    height: 350px;
+}
+
+#family {
+    padding: 3rem 2rem;
+    background-color: whitesmoke;
+    margin: 2rem 0;
+    height: 650px;
+}
+
+#image-gallery {
     padding: 3rem 2rem;
     background-color: whitesmoke;
     margin: 2rem 0;
@@ -134,14 +149,14 @@ header {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 1.85em;
     color: #333;
     margin-bottom: 20px;
     font-weight: 600;
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.15em;
     line-height: 1.8;
     color: #2E2E2E;
 }
@@ -150,10 +165,11 @@ p {
 #image-gallery .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 100px;
 }
 
 .image-item img {
+    margin-left: 115px;
     width: 425px;
     height: 400px;
     border-radius: 10px;
